@@ -8,7 +8,6 @@ public class Main {
         int[] arr={1,2,3,4,5,6,7,8,9};
         Stream.of(arr);
         Arrays.stream(arr).filter(x->x%2==0).map(x->x*x).filter(x-> x>t).forEach(System.out::println);
-        //Arrays.stream(arr).filter(x->Math.max(x,x)).forEach(System.out::println);
     }}
 
 
